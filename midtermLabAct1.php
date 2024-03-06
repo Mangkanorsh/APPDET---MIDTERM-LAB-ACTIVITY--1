@@ -21,7 +21,7 @@
 <!-- Problem 1 -->
 <?php
 echo "<center><h1> MIDTERM LAB ACTIVITY #1<br>
-HTML Table Tags and PHP Variables, Echo/Print Construct & Control<br>
+HTML Table Tags and PHP Variables, Echo/Print Construct & Control
 Structures</h1></center>";
 
 echo "<br><h1>Problem 1</h1>";
@@ -83,18 +83,19 @@ foreach ($employees as $employee) {
 }
 
 // Display total row
-echo    "</table>";
-echo    "<h3>";
+echo "</table>";
+echo "<h3>";
 echo "TOTAL GROSS PAY : $totalGrossPay <br>";
 echo "TOTAL DEDUCTION : $totalDeduction <br>";
 echo "TOTAL NETPAY: $totalNetPay";
-echo        "</h3>";
+echo  "</h3>";
 
 ?>
 
 <!-- problem 2 -->
 <?php
-echo "<br><h1>Problem 2</h1>";
+
+echo "<br><hr><h1>Problem 2</h1>";
     // Sample Students data for the table
         $students = array(
             array("LOPEZ, Norsh Daniel Francois", 1.5),

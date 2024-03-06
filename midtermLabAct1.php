@@ -1,3 +1,15 @@
+<!-- GROUP MEMBERS -->
+<!-- 
+    LOPEZ, Norsh Daniel Francois
+    BACOD, Christian
+    DELA CRUZ, Mark Jonel
+    GARCIA, Vince
+    CALPE, Rommel
+    ILAO, Neil Cymar 
+    RESPONDO, Julius
+    PANLILIO, Andrei
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

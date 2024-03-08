@@ -94,13 +94,6 @@ foreach ($employees as $employee) {
         </tr>";
 }
 
-// Display total row
-// echo "</table>";
-// echo "<h3>";
-// echo "TOTAL GROSS PAY : $totalGrossPay <br>";
-// echo "TOTAL DEDUCTION : $totalDeduction <br>";
-// echo "TOTAL NETPAY: $totalNetPay";
-// echo  "</h3>";
 echo "<tr>";
 echo "<td colspan='2'><b>TOTAL: </b></td>";
 echo "<td><b>$totalGrossPay</b></td>";

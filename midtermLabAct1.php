@@ -106,7 +106,7 @@ echo "</table>";
 <!-- problem 2 -->
 <?php
 
-echo "<br><hr><h1>Problem 2</h1>";
+echo "<br><hr><br><h1>Problem 2</h1>";
     // Sample Students data for the table
         $students = array(
             array("LOPEZ, Norsh Daniel Francois", 1.5),

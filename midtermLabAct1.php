@@ -101,6 +101,7 @@ echo "<td><b>$totalDeduction</b></td>";
 echo "<td><b>$totalNetPay</b></td>";
 echo "</tr>";
 echo "</table>";
+echo "<br>"
 ?>
 
 <!-- problem 2 -->

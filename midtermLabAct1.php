@@ -95,13 +95,19 @@ foreach ($employees as $employee) {
 }
 
 // Display total row
+// echo "</table>";
+// echo "<h3>";
+// echo "TOTAL GROSS PAY : $totalGrossPay <br>";
+// echo "TOTAL DEDUCTION : $totalDeduction <br>";
+// echo "TOTAL NETPAY: $totalNetPay";
+// echo  "</h3>";
+echo "<tr>";
+echo "<td colspan='2'><b>TOTAL: </b></td>";
+echo "<td><b>$totalGrossPay</b></td>";
+echo "<td><b>$totalDeduction</b></td>";
+echo "<td><b>$totalNetPay</b></td>";
+echo "</tr>";
 echo "</table>";
-echo "<h3>";
-echo "TOTAL GROSS PAY : $totalGrossPay <br>";
-echo "TOTAL DEDUCTION : $totalDeduction <br>";
-echo "TOTAL NETPAY: $totalNetPay";
-echo  "</h3>";
-
 ?>
 
 <!-- problem 2 -->
@@ -134,9 +140,9 @@ echo "<br><hr><h1>Problem 2</h1>";
     
     // Set Deans Lister status using if-else statement
         if ($student[1] <= 1.75) {
-                $deansListerStatus = "Qualified";
+                $deansListerStatus = "<span style=color:green;>Qualified</span>" ;
         } else {
-                $deansListerStatus = "Not Qualified";
+                $deansListerStatus = "<span style=color:red;>Not Qualified</span>" ;
         }
         
         

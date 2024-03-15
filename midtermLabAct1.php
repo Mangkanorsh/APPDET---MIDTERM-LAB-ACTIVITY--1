@@ -84,6 +84,7 @@ foreach ($employees as $employee) {
     $totalDeduction += $deduction;
     $totalNetPay += $netPay;
 
+
     // Display employee row
     echo "<tr>
             <td>$name</td>
@@ -110,7 +111,7 @@ echo "<br>"
 echo "<br><hr><br><h1>Problem 2</h1>";
     // Sample Students data for the table
         $students = array(
-            array("LOPEZ, Norsh Daniel Francois", 1.5),
+            array("LOPEZ, Norsh Daniel Francois", 1.5567),
             array("BACOD, Christian", 1.25),
             array("DELA CRUZ, Mark Jonel", 1.75),
             array("GARCIA, Vince", 2.25),
